@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            #d1{
+                background-color: #DEF;
+                width: 200px;
+                height: 250px;
+                border-left: 5px solid #369;
+            }
+            .box2{
+                width: 300px;
+                height: 300px;
+                padding: 20px 30px;
+                border-style: dashed;
+                border-top-width: 5px;
+                border-bottom-width: 5px;
+                border-left-width: 10px ;
+                border-right-width: 10px;
+                border-color: #248;
+                margin: 20px auto;
+            }
+    </style>
+</head>
+<body>
+    <div id="d1"class="box1">
+        <h1>盒子</h1>
+    </div>
+    <div class="box2">
+        <h1>I'm a box.</h1>
+    </div>
+</body>
+</html>
