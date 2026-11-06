@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>诗词网页练习</title>
+    <style>
+        h2{
+            font-size:18px;
+        }
+        div + ul{
+            list-style: none;
+            padding-left:0;
+            background-color: #fff2aa;
+        }
+        .box{
+            background-color:#e8f0f8;
+        }
+        .box:hover{
+            border:1px solid blue;
+        }
+        a:link{
+            color:blue;
+        }
+        a:visited{
+            color:purple;
+        }
+        a:hover{
+            color:red;
+        }
+        a:active{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    <h2>诗词网页练习</h2>
+    <ul>
+        <li><a href="#">唐诗</a></li>
+        <li><a href="#">宋词</a></li>
+        <li><a href="#">元曲</a></li>
+    </ul>
+    <p>唐诗、宋词、元曲，中华文化瑰宝。</p>
+    <p>熟读唐诗三百首，不会作诗也会吟。</p>
+    <div class="box">唐朝诗人</div>
+    <ul>
+        <li>李白</li>
+        <li>杜甫</li>
+    </ul>
+
+    <div class="box">宋朝诗人</div>
+    <ul>
+        <li>欧阳修</li>
+        <li>苏轼</li>
+    </ul>
+
+</body>
+</html>
